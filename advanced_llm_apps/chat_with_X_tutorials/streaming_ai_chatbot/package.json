@@ -2,10 +2,10 @@
   "name": "streaming-ai-chatbot",
   "description": "Minimal streaming AI chatbot demonstrating real-time responses and state management",
   "scripts": {
-    "dev": "motia dev --verbose",
-    "dev:debug": "motia dev --debug",
+    "dev": "node init && motia dev --verbose",
+    "dev:debug": "node init && motia dev --debug",
     "generate-types": "motia generate-types",
-    "build": "motia build",
+    "build": "node init && motia build",
     "clean": "rm -rf dist node_modules python_modules .motia .mermaid"
   },
   "keywords": [
